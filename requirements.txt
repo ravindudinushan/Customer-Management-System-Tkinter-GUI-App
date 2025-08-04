@@ -1,0 +1,4 @@
+tkinter
+sqlite3
+pyttsx3
+playsound==1.2.2

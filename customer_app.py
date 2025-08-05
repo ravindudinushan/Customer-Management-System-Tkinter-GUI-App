@@ -361,7 +361,7 @@ class CustomerApp:
         self.customer_tree.column('ID', width=180, anchor='center')  # Increased from 150
         
         self.customer_tree.heading('Name', text='Customer Name')
-        self.customer_tree.column('Name', width=400, anchor='w')  # Increased from 350
+        self.customer_tree.column('Name', width=400, anchor='center')  # Increased from 350
         
         self.customer_tree.heading('Date Added', text='Date & Time Added')
         self.customer_tree.column('Date Added', width=220, anchor='center')  # Increased from 200
